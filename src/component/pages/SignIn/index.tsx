@@ -2,7 +2,6 @@ import React from 'react';
 import { StyleSheet, Text, View , TouchableWithoutFeedback} from 'react-native';
 import {Button, dismiss, TextField} from '../../atoms';
 import {useControlledComponent} from '../../../lib/hooks';
-import SignInWithGoogle from './SignInWithGoogle';
 import {Context , Status} from '../../../contexts/ui';
 
 const styles = StyleSheet.create({
@@ -54,7 +53,6 @@ export default function SignIn() {
                     />
                 </View>
                 <View style={styles.buttonContainer}>
-                    <SignInWithGoogle />
                     <Button onPress={()=> setApplicationState(Status.AUTHORIZED)}
                     label="SignIn" style={styles.button} />
                 </View>

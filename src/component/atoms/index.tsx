@@ -1,3 +1,13 @@
 export {default as Button} from './Buttons';
 export {default as Logo} from './Logo'; 
 export {default as TextField, dismiss} from './TextField';
+export {default as Pagination} from './Pagination';
+export {default as Avatar} from './Avatar';
+export {default as LabelValueContainer} from './LabelValueContainer';
+export {default as CoverImage} from './CoverImage';
+export {default as FlatLogList} from './FlatLogList';
+export {default as TagsList} from './TagsList';
+export {default as ImageList} from './ImageList';
+export {default as IconButton} from './IconButton';
+export {default as Paragraph} from './Paragraph';
+export {default as VectorIcon} from './VectorIcon';

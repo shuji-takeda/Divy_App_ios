@@ -7,6 +7,7 @@ export enum Status {
     AUTHORIZED = 'authorized',
 }
 
+// 初回起動時（前回のキャッシュが存在しなければ、Loading
 export function createApplicationInitialState(): Status {
     return(Status.LOADING);
 }

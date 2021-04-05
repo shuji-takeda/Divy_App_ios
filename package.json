@@ -10,20 +10,45 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@januswel/object-utilities": "1.0.1",
+    "@react-native-community/async-storage": "https://github.com/januswel/async-storage.git#add-typings-of-mock",
+    "@react-native-community/cameraroll": "^4.0.2",
+    "@react-native-community/datetimepicker": "^3.4.3",
+    "@react-native-community/google-signin": "^5.0.0",
     "@react-native-community/masked-view": "0.1.7",
+    "@react-native-community/picker": "^1.8.1",
+    "@react-native-firebase/analytics": "10.7.0",
+    "@react-native-firebase/app": "10.7.0",
+    "@react-native-firebase/auth": "10.7.0",
+    "@react-native-firebase/firestore": "10.7.0",
+    "@react-native-picker/picker": "^1.12.0",
     "@react-navigation/bottom-tabs": "5.1.1",
     "@react-navigation/drawer": "5.1.1",
+    "@react-navigation/material-bottom-tabs": "^5.3.14",
     "@react-navigation/native": "5.0.9",
     "@react-navigation/stack": "5.1.1",
-    "react": "16.13.1",
-    "react-native": "0.63.4",
+    "@reduxjs/toolkit": "^1.5.0",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-customized-image-picker": "^1.2.1",
     "react-native-eject": "^0.1.2",
+    "react-native-elements": "^3.2.0",
     "react-native-gesture-handler": "1.6.0",
-    "react-native-paper": "^4.7.1",
+    "react-native-get-random-values": "1.6.0",
+    "react-native-modal-datetime-picker": "^9.2.0",
+    "react-native-paper": "^4.7.2",
     "react-native-reanimated": "1.7.0",
+    "react-native-responsive-screen": "^1.4.2",
     "react-native-safe-area-context": "0.7.3",
     "react-native-screens": "2.2.0",
-    "react-native-vector-icons": "^8.0.0"
+    "react-native-snap-carousel": "3.8.4",
+    "react-native-swipe-list-view": "2.0.6",
+    "react-native-vector-icons": "^8.0.0",
+    "react-redux": "7.2.2",
+    "redux": "4.0.5",
+    "redux-thunk": "2.3.0",
+    "reselect": "4.0.0",
+    "uuid": "8.3.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
@@ -31,13 +56,18 @@
     "@react-native-community/eslint-config": "^1.1.0",
     "@types/jest": "^25.2.3",
     "@types/react-native": "0.63.40",
+    "@types/react-native-snap-carousel": "3.7.4",
     "@types/react-native-vector-icons": "6.4.4",
+    "@types/react-redux": "7.1.16",
     "@types/react-test-renderer": "^16.9.2",
+    "@types/redux-mock-store": "1.0.2",
+    "@types/uuid": "8.3.0",
     "babel-jest": "^25.1.0",
     "eslint": "^6.5.1",
     "jest": "^25.1.0",
     "metro-react-native-babel-preset": "^0.59.0",
     "react-test-renderer": "16.13.1",
+    "redux-mock-store": "1.5.4",
     "typescript": "^3.8.3"
   },
   "jest": {
@@ -50,5 +80,8 @@
       "json",
       "node"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/shuji-takeda/Divy_App_ios.git",
+  "license": "MIT"
 }

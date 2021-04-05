@@ -5,6 +5,7 @@ export default function useControlledComponent<T>(initialValue: T){
 
     function onChangeText(newValue: T){
         setValue(newValue);
+        console.log(newValue);
     }
 
     return {

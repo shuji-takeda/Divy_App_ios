@@ -6,7 +6,7 @@ import {Button as PaperButton} from 'react-native-paper';
 const styles = StyleSheet.create({
     text:{
         fontSize: 18,
-        fontWeight: '900',
+        fontWeight: '400',
         color: COLOR.WHITE,
     },
 })
@@ -28,7 +28,7 @@ export default function Button(props:Props){
         style,
         textStyle,
         label,
-        color = COLOR.SECONDARY,
+        color = COLOR.CAROUSEL_BACKGROUND,
         disabled,
         disabledColor = COLOR.MAIN_LIGHT,
         icon,
@@ -36,7 +36,7 @@ export default function Button(props:Props){
 
     return (
         <PaperButton
-        mode="contained"
+        mode="text"
         onPress={onPress}
         style={style}
         disabled={disabled}

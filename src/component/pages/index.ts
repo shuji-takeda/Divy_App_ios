@@ -2,9 +2,13 @@ export {default as Loading} from './Loading';
 export {default as Initial} from './Initial';
 export {default as Home} from './Home';
 export {default as ChooseLogin} from './ChooseLogin';
-export {default as Statistics} from './Statistics';
+export {default as ChooseSignIn} from './ChooseSiginIn';
+export {default as Dive} from './Dive'
 export {default as Detail} from './Detail';
 export {default as UserInfo} from './UserInfo';
+export {default as UserInfoCustom} from './UserInfo_Custom'
 export {default as Input} from './Input';
 export {default as SignIn} from './SignIn';
 export {default as SignUp} from './SignUp';
+export {default as PostLog} from './PostLog';
+export {default as SearchLog} from './SearchLog';
