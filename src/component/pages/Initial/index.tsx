@@ -56,7 +56,7 @@
 //     message: "すでに会員の方",
 //     onpress: ()=> console.log("Login")
 //   }
-  
+
 //   const signUp = {
 //     disable: false,
 //     name: "新規会員登録",
@@ -79,7 +79,7 @@
 //                 <Text style={styles.buttonName}>{login.message}</Text>
 //                 <Text style={styles.buttonName}>{login.name}</Text>
 //             </TouchableOpacity>
-        
+
 //             <TouchableOpacity style={styles.buttons}
 //             onPress= {() => {
 //                 navigate('Search');
@@ -131,30 +131,26 @@
 //     )
 // }
 
-
 import React from 'react';
-import { StyleSheet,
-         View,
-        Text,} from 'react-native';
+import {StyleSheet, View, Text} from 'react-native';
 import {COLOR} from '../../../constants/theme';
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: COLOR.MAIN,
-    },
-    text: {
-        color:COLOR.WHITE
-    }
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: COLOR.MAIN,
+  },
+  text: {
+    color: COLOR.WHITE,
+  },
 });
 
-
-export default function Initial(){
-    return(
-        <View style={styles.container}>
-            <Text style={styles.text}>Initial</Text>
-        </View>
-    )
+export default function Initial() {
+  return (
+    <View style={styles.container}>
+      <Text style={styles.text}>Initial</Text>
+    </View>
+  );
 }
